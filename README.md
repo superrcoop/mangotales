@@ -1,1 +1,1 @@
-# jamaicannabiz.github.io
+# mangotales.github.io
