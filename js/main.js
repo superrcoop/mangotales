@@ -18,16 +18,16 @@ jQuery(document).ready(function( $ ) {
 
   $('.owl-carousel').owlCarousel({
     margin:30,
-    
+
     responsive:{
         0:{
-            items:3
+            items:4
         },
         600:{
-            items:5
+            items:7
         },
         1000:{
-            items:8
+            items:9
         }
     }
 })
@@ -53,7 +53,7 @@ jQuery(document).ready(function( $ ) {
       'id': ''
     });
     $('body').append($mobile_nav);
-    $('body').prepend('<button type="button" id="mobile-nav-toggle"><i class="fa fa-bars"></i></button>');
+    $('body').prepend('<button type="button" id="mobile-nav-toggle"><h3><small>Menu</small></h3></button>');
     $('body').append('<div id="mobile-body-overly"></div>');
     $('#mobile-nav').find('.menu-has-children').prepend('<i class="fa fa-chevron-down"></i>');
 
