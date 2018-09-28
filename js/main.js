@@ -15,6 +15,7 @@ jQuery(document).ready(function( $ ) {
 
   // Stick the header at top on scroll
   $("#header").sticky({topSpacing:0, zIndex: '50'});
+  $(".sticky").sticky({topSpacing:0, zIndex: '0'});
 
   $('.owl-carousel-home').owlCarousel({
     center: true,
@@ -28,6 +29,9 @@ jQuery(document).ready(function( $ ) {
     }
 });
 
+
+
+    
   $('.owl-buy').owlCarousel({
     
     margin:15,
