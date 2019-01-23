@@ -36,6 +36,7 @@ jQuery(document).ready(function( $ ) {
     
     margin:15,
     nav:false,
+    
     responsive:{
       300:{
 items:5

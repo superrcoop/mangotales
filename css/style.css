@@ -168,13 +168,6 @@ h1, h2, h3, h4, h5, h6 {
   display: block;
 }
 
-
-@media (max-width: 768px) {
-  #nav-menu-container {
-    display: none;
-  }
-}
-
 /* Nav Meu Styling */
 .nav-menu a {
   padding: 10px 8px;
@@ -207,23 +200,21 @@ h1, h2, h3, h4, h5, h6 {
   transition: 0.3s;
 }
 
-.nav-menu ul li a {
-  padding: 10px;
-  color: #333;
-  transition: 0.3s;
-  display: block;
-  font-size: 12px;
-  text-transform: none;
-}
 
 .nav-menu ul li:hover > a {
   color: #006400;
 }
 
-.nav-menu ul ul {
-  margin: 0;
-}
 
+@media (max-width: 768px) {
+  #nav-menu-container {
+    display: none;
+  }
+  .nav-menu  a {
+    font-size: 10px;
+  }
+
+}
 
 /*--------------------------------------------------------------
 # Sections
@@ -421,6 +412,14 @@ h1, h2, h3, h4, h5, h6 {
 
 #footer .info a:first-child {
   border-left: 0;
+}
+@media (max-width: 768px) {
+  #footer .info a{
+    font-size: 8px;
+  }
+  #footer .credits{
+    font-size: 10px;
+  }
 }
 
 /*------------------------------------------------
