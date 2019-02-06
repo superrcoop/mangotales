@@ -22,13 +22,15 @@ jQuery(document).ready(function( $ ) {
     items:1.4,
     loop:false,
     margin:15,
+    autoplay:true,
+autoplayTimeout:5000,
+autoplayHoverPause:true,
     responsive:{
         600:{
             items:2
         }
     }
 });
-
 
 
     
