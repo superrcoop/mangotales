@@ -312,8 +312,6 @@ h1, h2, h3, h4, h5, h6 {
   padding-bottom: 10px;
 }
 
-
-
 /* Call To Action Section
 --------------------------------*/
 #call-to-action {
@@ -338,6 +336,12 @@ h1, h2, h3, h4, h5, h6 {
     align-items: center;
     justify-content: flex-end;
   }
+}
+.carousel-img {
+  height:500px;
+}
+.carousel-img-about {
+  height:200px;
 }
 
 #call-to-action .cta-btn {

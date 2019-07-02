@@ -41,13 +41,13 @@ autoplayHoverPause:true,
     
     responsive:{
       300:{
-items:5
+items:8
       },
         600:{
-            items:8
+            items:10
         },
         900:{
-          items:10
+          items:14
         }
     }
 });
